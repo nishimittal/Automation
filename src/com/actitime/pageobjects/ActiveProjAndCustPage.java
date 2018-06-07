@@ -21,7 +21,6 @@ private WebElement showBtn;
 @FindBy(css="input[value='Create New Project']")
 private WebElement createNewProj;
 
-
 public ActiveProjAndCustPage(WebDriver driver){
 	super(driver);
 	PageFactory.initElements(driver, this);
